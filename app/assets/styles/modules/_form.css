@@ -4,6 +4,11 @@
   padding: 1rem 2rem;
   border-radius: 20px;
   opacity: 90%;
+  display: none;
+
+  @mixin atLarge {
+    display: block;
+  }
 
   &__header {
     font-size: 1rem;

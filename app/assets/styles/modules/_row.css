@@ -61,6 +61,10 @@
       }
     }
 
+    &--reverse-at-medium {
+      flex-direction: row-reverse;
+    }
+
     &--flex-at-medium {
       display: flex;
     }

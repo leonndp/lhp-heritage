@@ -2,14 +2,20 @@
   text-align: center;
   padding: 1rem;
 
-  &--align-left {
-    text-align: left;
+  @mixin atMedium {
+    &--align-left-at-medium {
+      text-align: left;
+    }
   }
 
   &__header {
-    font-size: 0.875rem;
+    font-size: 1rem;
     font-weight: 700;
     line-height: 20.2px;
+
+    @mixin atSmall {
+      font-size: 0.875rem;
+    }
 
     &--large {
       font-size: 1.625rem;
